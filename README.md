@@ -11,10 +11,15 @@ HOW TO ADOPT
 1. Choose a photo of a dog you would love to adopt
 2. Once click on image you will find the following information: 
 NAME
+
 DATE BIRTH
+
 BREED
+
 DAYS IN SHELTER
+
 COMMENT ON DOG 
+
 3. Once you have decided on a dog you would love to adopt 
 two options still haven't decided on which one
         1. Add a comment with person information to adopt 
@@ -22,3 +27,4 @@ two options still haven't decided on which one
 ___________________________________________________________________________
 
 WIRE FRAME 
+
