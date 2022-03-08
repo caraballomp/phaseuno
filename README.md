@@ -10,6 +10,7 @@ On any given day, ADOPT A PET, many of these dogs come to from extra care and he
 HOW TO ADOPT  
 1. Choose a photo of a dog you would love to adopt
 2. Once click on image you will find the following information: 
+
 NAME
 
 DATE BIRTH
@@ -20,11 +21,6 @@ DAYS IN SHELTER
 
 COMMENT ON DOG 
 
-3. Once you have decided on a dog you would love to adopt 
-two options still haven't decided on which one
-        1. Add a comment with person information to adopt 
-        2. Adding a separate box for the person information to adopt pet 
+3. Once you have decided on a pet that you would love to adopt 
+There will be a form for you to submit and we will be in contact once submitted 
 ___________________________________________________________________________
-
-WIRE FRAME 
-
