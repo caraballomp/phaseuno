@@ -1,2 +1,3 @@
-let woofAPI = `http://localhost:3000/images`
+// fetch("https://dog.ceo/api/breeds/list/all")
 
+console.log("HELLO")
