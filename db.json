@@ -21,7 +21,7 @@
         "name": "Neo",
         "age":"2",
         "breed": "Dachshund",
-        "days in shelter":"24",      
+        "days in shelter":"24 days",      
         "image":"https://www.pngegg.com/en/png-fgvyu"
       },
       {
@@ -29,7 +29,7 @@
         "name": "Pearl",
         "age":"3",
         "breed": "Labrador",
-        "days in shelter":"34",      
+        "days in shelter":"34 days",      
         "image":"https://www.pngegg.com/en/png-dkekq"
       },
       {
@@ -37,7 +37,7 @@
         "name": "Zippy",
         "age":"2",
         "breed": "French Bulldog",
-        "days in shelter":"29",      
+        "days in shelter":"29 days",      
         "image":"https://www.pngegg.com/en/png-ogzkn"
       }
     ]}
