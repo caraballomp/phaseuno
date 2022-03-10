@@ -24,3 +24,7 @@ COMMENT ON DOG
 3. Once you have decided on a pet that you would love to adopt 
 There will be a form for you to submit and we will be in contact once submitted 
 ___________________________________________________________________________
+
+json-server --watch db.json   
+
+ http://localhost:3000
