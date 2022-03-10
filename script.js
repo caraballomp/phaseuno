@@ -17,7 +17,11 @@ document.addEventListener("DOMContentLoaded", function() {
 //   .catch(console.err);
 
 const dogs = async () => {
-    const response = await fetch(API)
+    const response = await fetch(API,{
+        method : "GET",
+        mode: 'no-cors',
+        headers: {}
+    })
     const json = await response.json()
     console.log(json)
     return json;
