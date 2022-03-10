@@ -14,7 +14,7 @@
         "age": "5",
         "breed": "Husky",
         "days in shelter":"53 days",      
-        "image":"https://www.pngegg.com/en/png-dksjk"
+        "image":"./assets/zeus.png"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "age":"2",
         "breed": "Dachshund",
         "days in shelter":"24 days",      
-        "image":"https://www.pngegg.com/en/png-fgvyu"
+        "image":"./assets/neo.png"
       },
       {
         "id": 4,
