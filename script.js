@@ -4,44 +4,37 @@ document.addEventListener("DOMContentLoaded", function() {
     // console.log("The DOM has loaded");
   });
 
- const API = 'http://localhost:3000/posts'
-
-//  fetch(API, {mode:'no-cors'})
-//   .then((res) => {
-//       console.log(res)
-//       res.json()
-//     console.log(res.json())
-// })
-
-//   .then(renderDogs)
-//   .catch(console.err);
-
-const dogs = async () => {
-    const response = await fetch(API,{
-        method : "GET",
-        mode: 'no-cors',
-        headers: {}
-    })
-    const json = await response.json()
-    console.log(json)
-    return json;
+const renderDogs = async () => {
+let API = 'http://localhost:3000/posts';
+// const response = await fetch(API);{
+//         method : "GET",
+//         mode: 'no-cors',
+//         headers: {}
+//     })
+    // const posts = await response.json()
+    // console.log(json)
+    // return json;
+    const res = await fetch(API);
+    const posts = await res.json();
+    console.log(post)
+    // return json;
 }
 // dogs();
 
-const allPosts = async () =>{
-    const data = await dogs()
-    renderDogs(data)
-}
-allPosts();
+// const posts = async () =>{
+//     const data = await renderDogs()
+//     renderDogs(data)
+// }
+// posts();
 
-  function renderDogs (data) {
-    data.forEach(element => {
-        // console.log(element.image)
+  function dogs (posts) {
+    posts.forEach(element => {
+        console.log(element.image)
     imageElement = document.createElement('div');
     imageTag = document.createElement('img');
     imageTag.src = element.image;
     imageContainer.append(imageElement);
     imageElement.append(imageTag);
     });
-
+// imageContainer.innerHTML = dogs;
   }
