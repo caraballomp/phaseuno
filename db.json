@@ -30,7 +30,7 @@
         "age":"3",
         "breed": "Labrador",
         "days in shelter":"34 days",      
-        "image":"https://www.pngegg.com/en/png-dkekq"
+        "image":"./assets/pearl.png"
       },
       {
         "id": 5,
@@ -38,6 +38,6 @@
         "age":"2",
         "breed": "French Bulldog",
         "days in shelter":"29 days",      
-        "image":"https://www.pngegg.com/en/png-ogzkn"
+        "image":"./assets/zippy.png"
       }
     ]}
