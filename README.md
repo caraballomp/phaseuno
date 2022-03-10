@@ -19,7 +19,7 @@ BREED
 
 DAYS IN SHELTER
 
-COMMENT ON DOG 
+SUBMIT FORM BELOW
 
 3. Once you have decided on a pet that you would love to adopt 
 There will be a form for you to submit and we will be in contact once submitted 
