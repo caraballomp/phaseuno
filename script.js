@@ -16,7 +16,7 @@ let API = 'http://localhost:3000/posts';
     // return json;
     const res = await fetch(API);
     const posts = await res.json();
-    console.log(post)
+    console.log(posts)
     // return json;
 }
 // dogs();

@@ -6,7 +6,7 @@
         "age": "7",
         "breed": "Golden Retriever",
         "days in shelter":"77 days",      
-        "image":"https://www.pngegg.com/en/png-dkpui"
+        "image":"./assets/airmax.png"
       },
       {
         "id": 2,
