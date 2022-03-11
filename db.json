@@ -3,7 +3,7 @@
       {
         "id": 1,
         "name": "Air Bud",
-        "age": "3",
+        "age": "7",
         "breed": "Golden Retriever",
         "daysinshelter":"77 days",      
         "image":"https://trudog.com/wp-content/uploads/2018/03/golden-retriever.jpg"
@@ -12,17 +12,17 @@
         "id": 2,
         "name": "Zeus",
         "age": "5",
-        "breed": "Husky",
+        "breed": "Siberian Husky",
         "daysinshelter":"53 days",      
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8Fub_AxsMYB_YLZJJNMzkDhDxb_AuYQiIA&usqp=CAU"
+        "image":"https://vetstreet-brightspot.s3.amazonaws.com/a9/f54ad0a80611e0a0d50050568d634f/file/Siberian-Husky-4-645mk062811.jpg"
       },
       {
         "id": 3,
         "name": "Neo",
-        "age":"2",
+        "age":"5",
         "breed": "Dachshund",
         "daysinshelter":"24 days",      
-        "image": "https://www.purina.co.uk/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0130_dachshund_smooth_mini.jpg?itok=VWhDhag0"     
+        "image": "https://cdn.britannica.com/81/12481-004-1AD2693C.jpg"
       },
       {
         "id": 4,

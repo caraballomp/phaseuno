@@ -26,5 +26,3 @@ There will be a form for you to submit and we will be in contact once submitted
 ___________________________________________________________________________
 
 json-server --watch db.json   
-
- http://localhost:3000
