@@ -5,7 +5,7 @@
         "name": "Air Bud",
         "age": "3",
         "breed": "Golden Retriever",
-        "days in shelter":"77 days",      
+        "daysinshelter":"77 days",      
         "image":"https://trudog.com/wp-content/uploads/2018/03/golden-retriever.jpg"
       },
       {
@@ -13,7 +13,7 @@
         "name": "Zeus",
         "age": "5",
         "breed": "Husky",
-        "days in shelter":"53 days",      
+        "daysinshelter":"53 days",      
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC8Fub_AxsMYB_YLZJJNMzkDhDxb_AuYQiIA&usqp=CAU"
       },
       {
@@ -21,7 +21,7 @@
         "name": "Neo",
         "age":"2",
         "breed": "Dachshund",
-        "days in shelter":"24 days",      
+        "daysinshelter":"24 days",      
         "image": "https://www.purina.co.uk/sites/default/files/styles/ttt_image_510/public/2021-02/BREED%20Hero%20Mobile_0130_dachshund_smooth_mini.jpg?itok=VWhDhag0"     
       },
       {
@@ -29,7 +29,7 @@
         "name": "Pearl",
         "age":"3",
         "breed": "Labrador",
-        "days in shelter":"34 days",      
+        "daysinshelter":"34 days",      
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrMMN4IkgNHOoKOa8l0yxHCnY1aeabD-pXA&usqp=CAU"
       },
       {
@@ -37,7 +37,7 @@
         "name": "Zippy",
         "age":"2",
         "breed": "French Bulldog",
-        "days in shelter":"29 days",      
+        "daysinshelter":"29 days",      
         "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShY2usDWnyxUzdvJy-H2H9f8RPPGAuSH2e0A&usqp=CAU"
       }
     ]}

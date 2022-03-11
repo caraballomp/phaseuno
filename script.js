@@ -1,5 +1,10 @@
 const imageContainer = document.querySelector(".image-container");
-
+const dogDetail = document.getElementById('dogs-detail');
+const dogsDetailImage = document.querySelector('#dogs-detail-image');
+const dogName = document.querySelector('#name');
+const dogAge = document.querySelector('#age');
+const dogBreed = document.querySelector('#breed');
+const daysInShelter = document.querySelector('#days');
 
 document.addEventListener("DOMContentLoaded", function() {
     // console.log("The DOM has loaded");
@@ -17,24 +22,26 @@ let API = 'http://localhost:3000/posts';
      dogArray.forEach(addDogImageToThePage)
     }
 
+    number = 0;
+
     function addDogImageToThePage(dog) {
+      number ++;
       const dogImage = document.createElement('img')
       dogImage.src = dog.image;
-
-      imageContainer.append(dogImage)}
-
+      dogImage.setAttribute("id", "image-"+number);
+      imageContainer.append(dogImage)
+      dogImage.addEventListener('click', function () {
+        // console.log(this.id)
+      // console.log(dog)
+      dogsDetailImage.src = dog.image;
+      dogName.textContent = `Name : ${dog.name}`;
+      dogAge.textContent = `Age : ${dog.age}`;
+      dogBreed.innerText = `Breed : ${dog.breed}`;
+      daysInShelter.innerText = `Days in Shelter : ${dog.daysinshelter}`;
+    })
+    }
 
     
 
 
 
-//   function dogs (posts) {
-//     posts.forEach(element => {
-//         console.log(element.image)
-//     imageElement = document.createElement('div');
-//     imageTag = document.createElement('img');
-//     imageTag.src = element.image;
-//     imageContainer.append(imageElement);
-//     imageElement.append(imageTag);
-//     });
-// // imageContainer.innerHTML = dogs;});
