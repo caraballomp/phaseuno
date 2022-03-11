@@ -23,6 +23,7 @@ let API = 'http://localhost:3000/posts';
 
       imageContainer.append(dogImage)}
 
+
     
 
 

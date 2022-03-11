@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-style: oblique;
+}
+
+.image-container{
+    align-items: flex-start;
+    width: fit-content;
+    display: flex;
+    border: 2px solid black;						
+    height: auto;
+}
+
+#new-dog{
+    border: 1px solid black;
+    padding: 25px 50px;
+    background-color: lightblue;
+    display: center;
+    font-style:normal;
+}
+#image{
+    width: 200px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    border: 5px solid black;
+}
