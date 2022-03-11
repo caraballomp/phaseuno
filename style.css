@@ -1,5 +1,5 @@
 body {
-    background-color: lightgrey;
+    background-color: lightgray;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,8 +30,4 @@ img{
     border: 2px solid black;
     align-items: flex-start;
     display: center;
-}
-.dog-info{
-    
-
 }

@@ -5,6 +5,7 @@ const dogName = document.querySelector('#name');
 const dogAge = document.querySelector('#age');
 const dogBreed = document.querySelector('#breed');
 const daysInShelter = document.querySelector('#days');
+const submit = document.querySelector('#submit-bttn')
 
 document.addEventListener("DOMContentLoaded", function() {
     // console.log("The DOM has loaded");
@@ -31,17 +32,25 @@ let API = 'http://localhost:3000/posts';
       dogImage.setAttribute("id", "image-"+number);
       imageContainer.append(dogImage)
       dogImage.addEventListener('click', function () {
-        // console.log(this.id)
+       
       // console.log(dog)
       dogsDetailImage.src = dog.image;
-      dogName.textContent = `Name : ${dog.name}`;
-      dogAge.textContent = `Age : ${dog.age}`;
-      dogBreed.innerText = `Breed : ${dog.breed}`;
-      daysInShelter.innerText = `Days in Shelter : ${dog.daysinshelter}`;
+      dogName.textContent = `Name: ${dog.name}`;
+      dogAge.textContent = `Age: ${dog.age}`;
+      dogBreed.innerText = `Breed: ${dog.breed}`;
+      daysInShelter.innerText = `Days in Shelter: ${dog.daysinshelter}`;
     })
     }
 
-    
+  
+  submit.addEventListener('click', function(e){
+    // e.preventDefault();
+    e.reset();
+
+  })
+
+  
+
 
 
 
