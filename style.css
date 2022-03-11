@@ -27,13 +27,10 @@ img{
     width: 294px; 
     height: 280px; 
     object-fit: cover;
-    border: 2px solid lightblue;
+    border: 2px solid black;
     align-items: flex-start;
     display: center;
     image-resolution: inherit;
-image-resolution: initial;
-image-resolution: revert;
-image-resolution: unset;
 }
 .dog-info{
     font-size:1 em;  
